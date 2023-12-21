@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.card-3{
+    display: flex;
+    gap: 3rem;
+    /* margin-left: 3rem; */
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.head-1{
+    width: 25rem;
+    height: 28rem;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    border: 3px solid grey;
+    border-radius: 1rem;
+}
+.bottom{
+    width: 25rem;
+    display: flex;
+    gap: 6rem;
+    margin-top: 8.5rem;
+    margin-left: 1rem;
+}
+
+.head-2 {
+    width: 25rem;
+    height: 28rem;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    border: 3px solid grey;
+    border-radius: 1rem;
+}
+
+.bottom-2 {
+    width: 25rem;
+    display: flex;
+    gap: 6rem;
+    margin-top:3rem;
+    margin-left: 1rem;
+}
