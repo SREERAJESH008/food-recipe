@@ -1,9 +1,12 @@
 import { FaSearch } from "react-icons/fa";
 import "./nav.css";
 
+
+
 const Navbar = () => {
   return (
     <div className="master">
+      
       <div className="heading">
         <h1>Food.</h1>
       </div>
@@ -58,8 +61,21 @@ const Navbar = () => {
       </div>
       <div className="icon">
         <FaSearch />
+        <input className="search-box" type="search" placeholder ="SEARCH HERE" />
       </div>
+      {/* <div class="carousel-container">
+  <div class="carousel-wrapper" id="carousel">
+    <div class="carousel-item"><img className="master" src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_1280,ar_16:9/v1/img/recipes/98/78/3/pEMUNH5QRqQESQTvMFX5_fudge2.jpg" alt="" /> </div>
+    <div class="carousel-item"><img src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_1280,ar_16:9/v1/img/recipes/74/62/9/gleNKmxlS3KeYQaZTPFJ_0S9A7162.jpg" alt="" /></div> */}
+    {/* <div class="carousel-item"></div> */}
+  {/* </div>
+
+  <button class="carousel-button prev" onclick="prevSlide()">❮</button>
+  <button class="carousel-button next" onclick="nextSlide()">❯</button>
+</div> */}
     </div>
   );
 };
+
+
 export default Navbar;

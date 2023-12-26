@@ -10,26 +10,29 @@
     border-radius: 50%;
 }
 .card-3{
+    height: 35rem;
     display: flex;
     gap: 3rem;
     /* margin-left: 3rem; */
     justify-content: center;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+    background-color: white;
 
 }
 
 .head-1{
-    width: 25rem;
+    width: 27rem;
     height: 28rem;
-    background-color: aliceblue;
+    background-color: white;
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    border: 3px solid grey;
+    border: 2px solid grey;
     border-radius: 1rem;
+    margin-top: 2rem; 
 }
 .bottom{
     width: 25rem;
@@ -40,17 +43,19 @@
 }
 
 .head-2 {
-    width: 25rem;
+    width: 28rem;
     height: 28rem;
-    background-color: aliceblue;
+    background-color: white;
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    border: 3px solid grey;
+    border: 2px solid grey;
     border-radius: 1rem;
+    margin-top: 2rem;
+   
 }
 
 .bottom-2 {
@@ -59,4 +64,8 @@
     gap: 6rem;
     margin-top:3rem;
     margin-left: 1rem;
+}
+.star{
+    color: orange;
+    /* background-color: orange; */
 }

@@ -30,7 +30,7 @@ const Home = () => {
             src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_48,ar_1:1/v1/avatars/21_medthumb_hor.gif"
             alt=""
           />
-          <div>
+          <div className="star">
             <CiStar /> <CiStar /> <CiStar /> <CiStar /> <CiStar />
           </div>
 
@@ -63,7 +63,7 @@ const Home = () => {
             <h5>Reply</h5>
             <FaRegHeart />
           </div>
-        </div>
+        </div>  
       </div>
     );
 }

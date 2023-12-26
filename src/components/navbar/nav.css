@@ -9,23 +9,23 @@ html {
 }
 
 body {
-    height: 100vh;
-    width: 100vw; 
+        height: auto; 
+        width: 100vw; 
      /* background-color: green; */
     display: flex;
     justify-content: center;
 }
 
 .master {
-    height: 100vh;
-    width: 100vw;
-    /* margin-top: 2rem; */
-    display: flex;
-    justify-content: space-evenly;
-    background-image: url("https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_1280,ar_16:9/v1/img/recipes/98/78/3/pEMUNH5QRqQESQTvMFX5_fudge2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;  
+    /* height: 10vh; */
+    width: 100vw;   
+   display: flex;
+    justify-content: space-evenly; 
+    /* background-image: url("https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_1280,ar_16:9/v1/img/recipes/98/78/3/pEMUNH5QRqQESQTvMFX5_fudge2.jpg"); */
+     /* background-size: cover;
+    background-repeat: no-repeat;   */
 }
+
 
 .dropbtn {
     cursor: pointer;
@@ -35,8 +35,8 @@ body {
     font-size: 16px;
     border: none;
     margin-top: 1rem;
-    /* border-radius: 50%; */
-}
+     border-radius: 50%;
+} 
 
 .dropdown {
     position: relative;
@@ -71,10 +71,20 @@ body {
     cursor: pointer;
 }
 .icon{
-    width: 3rem;
-    height: 3rem;
+    height: 1.5rem;
     margin-top: 2rem;
     border-radius: 50%;
     cursor: pointer;
-    
+    display: flex;
 }
+.search-box{
+    width: 10rem;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: gold;
+    color: black;
+    border-radius: 2rem;
+    display: flex;
+    text-align: center;
+    
+} 
