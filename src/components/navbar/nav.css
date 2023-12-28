@@ -76,11 +76,14 @@ body {
     border-radius: 50%;
     cursor: pointer;
     display: flex;
+    cursor: pointer;
 }
 .search-box{
-    width: 10rem;
+    width: 15rem;
+    height: 2rem;
     font-size: 13px;
     font-weight: 700;
+    margin-top: 1.5rem;
     background-color: gold;
     color: black;
     border-radius: 2rem;

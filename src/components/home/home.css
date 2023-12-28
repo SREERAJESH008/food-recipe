@@ -67,5 +67,6 @@
 }
 .star{
     color: orange;
+    cursor: pointer;
     /* background-color: orange; */
 }
