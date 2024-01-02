@@ -6,9 +6,11 @@ import Explore from './components/explore/export'
 import Footer from './components/footer/footer'
 import Curosal from './components/curosal/curosal'
 import Login from './components/login/login'
+import signup from './components/signup/signup'
+import { Route } from 'react-router-dom'
+import Root from './components/root/root'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
-
+import Signup from './components/signup/signup'
 
 
 
@@ -19,25 +21,32 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Root/>,
+      element: <Root />,
       children: [
-          
         {
           path: "login",
           element: <Login />,
+        },
+
+        {
+          path: "top",
+          element: <top />,
+        },
+
+        {
+          path: "signUp",
+          element: <Signup />,
         },
       ],
     },
   ]);
 
   return (
-    <div className="home">
-      <RouterProvider router={router} />
-      <Navbar></Navbar>
-      <Curosal></Curosal>
-      <Home></Home> <Explore></Explore> <Login></Login>
-      <Footer></Footer>
-    </div>
+    <>
+      <div className="home-9">
+        <RouterProvider router={router} />
+      </div>
+    </>
   );
 }
 export default App;

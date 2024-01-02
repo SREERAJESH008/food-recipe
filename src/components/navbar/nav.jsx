@@ -5,9 +5,11 @@ import "./nav.css";
 const Navbar = () => {
   return (
     <div className="master">
-      <div className="heading">
-        <h1>Food.</h1>
-      </div>
+      <Link to={`/top`}>
+        <div className="heading">
+          <h1>Food.</h1>
+        </div>
+      </Link>
       <div class="dropdown">
         <button class="dropbtn">RECIPES</button>
         <div class="dropdown-content"></div>
@@ -55,11 +57,8 @@ const Navbar = () => {
       </div>
 
       <div class="dropdown">
-        {/* <Link className="dropdtn" to={`/login`}>
-          LOG IN
-        </Link> */}
-        <Link class="dropbtn" to={ `/login`}>
-          <button >LOG IN</button>
+        <Link to={`/login`}>
+          <button class="dropbtn">LOG IN</button>
         </Link>
       </div>
       <div className="icon">
