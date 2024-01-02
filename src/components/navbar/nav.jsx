@@ -1,4 +1,5 @@
 import { VscAccount } from "react-icons/vsc";
+import { Link } from "react-router-dom";
 import "./nav.css";
 
 const Navbar = () => {
@@ -54,7 +55,12 @@ const Navbar = () => {
       </div>
 
       <div class="dropdown">
-        <button class="dropbtn">LOG IN</button>
+        {/* <Link className="dropdtn" to={`/login`}>
+          LOG IN
+        </Link> */}
+        <Link class="dropbtn" to={ `/login`}>
+          <button >LOG IN</button>
+        </Link>
       </div>
       <div className="icon">
         {" "}
