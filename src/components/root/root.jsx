@@ -12,10 +12,12 @@ const Root = () => {
   return (
     <>
       <Navbar />
-      {/* <Curosal/>
-      <Home/> */}
+      {/* <Curosal /> */}
+      {/* <Home />
+      <Explore />
+      <Footer /> */}
+
       <Outlet />
-      
     </>
   );
 };
