@@ -1,6 +1,6 @@
 import "./signup.css"
 import {
-  signInWithGooglePopup,
+  createAuthUserWithEmailAndPassword,
   createUserDocumentFromAuth,
 } from "../../components/firebase/firebase.js";
 
