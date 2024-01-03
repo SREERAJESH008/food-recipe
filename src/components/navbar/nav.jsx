@@ -5,7 +5,7 @@ import "./nav.css";
 const Navbar = () => {
   return (
     <div className="master">
-      <Link to={`/top`}>
+      <Link to={`/`}>
         <div className="heading">
           <h1>Food.</h1>
         </div>

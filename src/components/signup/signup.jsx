@@ -4,9 +4,8 @@ import {
   createUserDocumentFromAuth,
 } from "../../components/firebase/firebase.js";
 
-const Login = () => {
+const Signup = () => {
   const navigate = useNavigate();
-  // const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 

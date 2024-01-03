@@ -11,6 +11,7 @@ import { Route } from 'react-router-dom'
 import Root from './components/root/root'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Signup from './components/signup/signup'
+import Top from './components/top/top'
 
 
 
@@ -29,8 +30,8 @@ function App() {
         },
 
         {
-          path: "top",
-          element: <top />,
+          path: "",
+          element: <Top />,
         },
 
         {
@@ -45,6 +46,10 @@ function App() {
     <>
       <div className="home-9">
         <RouterProvider router={router} />
+        {/* <Curosal/>
+        <Home />
+        <Explore/>
+        <Footer/> */}
       </div>
     </>
   );
